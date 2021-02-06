@@ -74,7 +74,7 @@
 
 }
 
-ul {
+.hot__list__product__wrap {
     max-width: 1200px;
     display: flex;
     justify-content: space-evenly;
@@ -98,7 +98,7 @@ ul {
         img {
             display: inline-block;
             height: auto;
-            width: 100%;
+            // width: 100%;
         }
 
         h3 {
@@ -123,7 +123,7 @@ ul {
 
 }
 
-    
+
 
 .star__area {
     position: relative;
@@ -169,9 +169,10 @@ ul {
     justify-content: center;
 
     >a {
-        width: 60px;
+        width: 100px;
         margin: 10px;
         transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+        padding: 8px;
 
         &:hover {
             background-color: #F3F3F3;
@@ -179,7 +180,16 @@ ul {
         }
 
     }
+
+    img {
+        width: 100% !important;
+        height: auto;
+    }
+
+
 }
+
+
 
 
 .read__more {
@@ -187,7 +197,7 @@ ul {
 }
 
 .read__more__btn {
-    background: url(../../img/read__more.svg);
+    background: url(../img/read__more.svg);
     background-repeat: no-repeat;
     width: 120px;
     height: 50px;
