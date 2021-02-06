@@ -117,6 +117,7 @@
     max-width: 1000px;
     width: 100%;
     padding-top: 150px;
+    margin: 0 auto;
 
     .footer__links {
         width: 20%;
@@ -169,7 +170,7 @@ ul {
             }
 
             @media(max-width:768px) {
-                padding: 20px 10px 16px;
+                padding: 20px 5px 16px;
             }
         }
     }
