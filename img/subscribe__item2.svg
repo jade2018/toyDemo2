@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="357.592" height="82.523" viewBox="0 0 357.592 82.523">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #d10024;
+      }
+
+      .cls-2 {
+        fill: #08080c;
+        stroke: #fff;
+        stroke-width: 3px;
+      }
+    </style>
+  </defs>
+  <g id="Group_2375" data-name="Group 2375" transform="translate(-939 -2919.804)">
+    <path id="Union_3" data-name="Union 3" class="cls-1" d="M33.4,65.905V51.522l-14.158,4.34L7.706,43.322l-11.2,5.35L14.4,26.779l7.35,11.359L33.4,33.747V13.516L354.093,1V68.327Z" transform="translate(942.497 2934)"/>
+    <g id="Group_2274" data-name="Group 2274" transform="translate(202.805 -476.532)">
+      <path id="Path_1231" data-name="Path 1231" class="cls-2" d="M1072.275,3397.027l-8.966,27.536,8.966,3.2,14.408-28.351Z" transform="translate(-5.971 1)"/>
+      <path id="Path_1232" data-name="Path 1232" class="cls-2" d="M1063.361,3411.982l-2.653,8.336,8.337,3.032,3.41-8.715Z" transform="translate(-9 18.416)"/>
+    </g>
+  </g>
+</svg>

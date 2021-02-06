@@ -1,0 +1,545 @@
+.top__bar {
+    background-color: #1E1F29;
+    padding: 5px 0;
+}
+
+.top__item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__bar {
+    border-bottom: 2px solid #D10024;
+
+}
+
+.language__btn {
+    display: flex;
+    width: 100px;
+    color: #F3F3F3;
+    cursor: pointer;
+
+    .arrow {
+        position: relative;
+        height: 100%;
+
+        &.active {
+            &:after {
+                top: 52%;
+                transform: translate(-50%, -50%) rotate(135deg);
+            }
+        }
+
+        &::after {
+            transition: .7s;
+            content: '';
+            position: absolute;
+            right: -22px;
+            bottom: 0;
+            top: 40%;
+            width: 8px;
+            height: 8px;
+            border-bottom: 2px solid #F3F3F3;
+            border-left: 2px solid #F3F3F3;
+            transform: translate(-50%, -50%) rotate(-45deg);
+        }
+    }
+
+    .tw {
+        margin-left: 10px;
+    }
+
+
+    .language__dropdown {
+        display: none;
+        position: absolute;
+        top: 30px;
+        background-color: #fff;
+        width: 80px;
+        line-height: 60px;
+        color: #000;
+        text-align: center;
+        z-index: 2;
+        transition: visibility .2s,
+            opacity .2s linear;
+    }
+}
+
+.user__area {
+    color: #F3F3F3;
+
+    >a {
+        padding: 0 10px;
+        transition: .3s;
+
+        &:hover {
+            color: rgb(167, 167, 167);
+        }
+    }
+
+    /*要詢問*/
+    >a:nth-child(2) {
+        position: relative;
+
+        &::before {
+            position: absolute;
+            content: '';
+            right: 0;
+            width: 1px;
+            height: 16px;
+            background-color: #696969;
+        }
+    }
+}
+
+.nav__bar {
+    background-color: #08080C;
+    padding: 20px 0;
+}
+
+.nav__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search__bar {
+    display: flex;
+    background-color: #fff;
+    border-radius: 4px;
+    margin-left: 20px;
+
+
+    >.dropdown {
+        position: relative;
+        line-height: 26px;
+        color: #707070;
+        padding: 5px 34px 5px 20px;
+        cursor: pointer;
+
+        &::before {
+            position: absolute;
+            content: '';
+            right: 18px;
+            top: 11px;
+            width: 8px;
+            height: 8px;
+            border-bottom: 1px solid #707070;
+            border-left: 1px solid #707070;
+            transform: rotate(-45deg);
+        }
+    }
+
+    >.search {
+        width: 500px;
+        border: none;
+        border-left: 1px solid #CBCBCB;
+        padding: 0 16px;
+
+        @media(max-width:768px) {
+            width: auto;
+        }
+    }
+
+
+
+
+    .search__icon {
+        background-color: #D10024;
+        border-radius: 0 4px 4px 0;
+        padding: 0 20px;
+        cursor: pointer;
+    }
+
+    @media(max-width:768px) {
+        .search__icon {
+            padding: 0 10px;
+        }
+    }
+}
+
+
+
+.icon__wrap {
+    display: flex;
+    color: #fff;
+}
+
+.like__item {
+    position: relative;
+    cursor: pointer;
+    margin-right: 20px;
+
+    >.like__icon__img {
+        display: inline-block;
+        width: 44px;
+        height: 44px;
+        background: url(../../img/like.svg);
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+
+    >.badge {
+        position: absolute;
+        top: 5px;
+        right: 0;
+        font-size: 12px;
+        border-radius: 50px;
+        background-color: #D10024;
+        padding: 2px 4px;
+    }
+}
+
+.like__dropdown__wrap {
+    position: absolute;
+    top: 45px;
+    right: -2px;
+    width: 350px;
+    background-color: #fff;
+    color: #000;
+    padding: 20px;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 1;
+    transition: visibility .2s, opacity .2s linear;
+    border: 1px solid#d4d4d4;
+
+    &:after {
+        content: '';
+        position: absolute;
+        right: 17px;
+        top: -6px;
+        width: 12px;
+        height: 12px;
+        background-color: #fff;
+        border-left: 1px solid#d4d4d4;
+        border-top: 1px solid#d4d4d4;
+        transform: rotate(45deg);
+    }
+
+
+    h5 {
+        color: #909093;
+    }
+
+    .line {
+        border: 1px solid #E8E8E8;
+
+    }
+
+    .item__wrap {
+        display: flex;
+        padding: 10px;
+
+
+        img {
+            margin-right: 10px;
+        }
+
+        .ellipsis {
+            color: #707070;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            margin-right: 30px;
+        }
+
+        .price {
+            color: #D10024;
+        }
+
+    }
+
+    .item__link {
+        display: block;
+        width: 100%;
+        background-color: #fff;
+        transition: .5s;
+
+        &:hover {
+            background-color: #F6F2F2;
+        }
+    }
+
+}
+
+
+.like__item:hover .like__dropdown__wrap {
+    z-index: 2;
+    display: block;
+    visibility: visible;
+    opacity: 1;
+    transition: visibility 0s, opacity .2s linear;
+}
+
+.like__item:hover .like__icon__img {
+    background: url(../../img/like__hover.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+//shopingCar
+
+.shopingCar__item {
+    position: relative;
+    cursor: pointer;
+    margin-right: 20px;
+
+    >.shopping__icon__img {
+        display: inline-block;
+        width: 44px;
+        height: 44px;
+        background: url(../../img/shoping__car.svg);
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+
+    >.badge {
+        position: absolute;
+        top: 5px;
+        right: 0;
+        font-size: 12px;
+        border-radius: 50px;
+        background-color: #D10024;
+        padding: 2px 4px;
+    }
+}
+
+.shopping__dropdown__wrap {
+    position: absolute;
+    top: 45px;
+    right: -2px;
+    width: 350px;
+    background-color: #fff;
+    color: #000;
+    padding: 20px;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 1;
+    transition: visibility .2s, opacity .2s linear;
+    border: 1px solid#d4d4d4;
+
+    &:after {
+        content: '';
+        position: absolute;
+        right: 17px;
+        top: -6px;
+        width: 12px;
+        height: 12px;
+        background-color: #fff;
+        border-left: 1px solid#d4d4d4;
+        border-top: 1px solid#d4d4d4;
+        transform: rotate(45deg);
+    }
+
+
+    h5 {
+        color: #909093;
+    }
+
+    .line {
+        border: 1px solid #E8E8E8;
+
+    }
+
+    .item__wrap {
+        display: flex;
+        padding: 10px;
+
+
+        img {
+            margin-right: 10px;
+        }
+
+        .ellipsis {
+            color: #707070;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            margin-right: 30px;
+        }
+
+        .price {
+            color: #D10024;
+        }
+
+    }
+
+    .item__link {
+        display: block;
+        width: 100%;
+        background-color: #fff;
+        transition: .5s;
+
+        &:hover {
+            background-color: #F6F2F2;
+        }
+    }
+
+}
+
+
+.shopingCar__item:hover .shopping__dropdown__wrap {
+    z-index: 2;
+    display: block;
+    visibility: visible;
+    opacity: 1;
+    transition: visibility 0s, opacity .2s linear;
+}
+
+.shopingCar__item:hover .shopping__icon__img {
+    background: url(../../img/shoping__car__hover.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.dropdownMenu__wrap {
+
+    >ul {
+        >li {
+            position: relative;
+            display: inline-block;
+
+            >a {
+                color: #1B1C1D;
+                padding: 20px;
+                transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+
+                &:hover {
+                    color: #D10024;
+                    text-decoration: none;
+                }
+            }
+        }
+
+        .active__item {
+            position: relative;
+
+            a {
+                color: #D10024;
+            }
+
+            &::before {
+                position: absolute;
+                content: '';
+                top: -1px;
+                right: 23px;
+                width: 26px;
+                height: 12px;
+                clip-path: polygon(51% 33%, 0% 100%, 100% 100%);
+                background-color: #D10024;
+                transform: rotate(180deg);
+            }
+        }
+    }
+}
+
+
+.showmenu {
+    display: none;
+}
+
+
+//hambuger
+@media(max-width:768px) {
+    .showmenu {
+        display: block;
+        background: url(../../img/hamburg.svg);
+        background-repeat: no-repeat;
+        background-size: center center;
+        width: 40px;
+        height: 40px;
+    }
+
+    .hamburg__cancel {
+        background: url(../../img/hamburg__cancel.svg);
+        background-repeat: no-repeat;
+        background-size: center center;
+    }
+
+
+    .dropdownMenu__wrap {
+        overflow: hidden;
+        transition: right 0.8s;
+        position: fixed;
+        right: -270px;
+        top: 121px;
+        bottom: 0;
+        font-size: 16px;
+        width: 270px;
+        height: 100vh;
+        background-color: #1B1C1D;
+        z-index: 2;
+
+
+        .dropdownMenu__item {
+            margin: 0;
+
+            li {
+                display: block;
+                position: relative;
+                border-bottom: 1px solid#404040;
+            }
+
+            a {
+                color: #fff;
+                position: relative;
+                width: 100%;
+                display: inline-block;
+                padding: 20px 0 20px 20px;
+
+                &:after {
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    content: '';
+                    width: 100%;
+                    height: 1px;
+                    background-color: #111111;
+                }
+            }
+
+            .active__item {
+                color: #D10024;
+
+                &::before {
+                    left: -6px;
+                    top: 50%;
+                    transform: translateY(-50%) rotate(90deg);
+                }
+            }
+        }
+    }
+
+    .menu__show {
+        right: 0;
+    }
+
+    .overlay {
+        display: none;
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        background: rgba(0, 0, 0, 0.7);
+        z-index: 1;
+        opacity: 0;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .overlay.overlay__active {
+        display: block;
+        opacity: 1;
+    }
+
+    header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 100vw;
+        z-index: 2;
+    }
+}

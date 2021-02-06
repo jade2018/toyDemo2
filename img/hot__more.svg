@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #2150e8;
+        opacity: 0;
+      }
+
+      .cls-3 {
+        stroke: #fff;
+        stroke-linecap: round;
+      }
+
+      .cls-4 {
+        fill: #8b8b8b;
+      }
+    </style>
+  </defs>
+  <g id="Group_1985" data-name="Group 1985" transform="translate(-463 -3325)">
+    <rect id="Rectangle_69" data-name="Rectangle 69" class="cls-1" width="40" height="40" transform="translate(463 3325)"/>
+    <g id="Group_1981" data-name="Group 1981" transform="translate(6 6)">
+      <g id="Group_1980" data-name="Group 1980" transform="translate(467 3329)">
+        <g id="Layer_2" data-name="Layer 2" transform="translate(0)">
+          <g id="shopping-cart" transform="translate(0 0)">
+            <rect id="Rectangle_46" data-name="Rectangle 46" class="cls-2" width="20" height="20"/>
+          </g>
+        </g>
+        <g id="Group_1978" data-name="Group 1978" transform="translate(9.091 7.273)">
+          <line id="Line_13" data-name="Line 13" class="cls-3" y2="3.636" transform="translate(1.818 0)"/>
+          <line id="Line_14" data-name="Line 14" class="cls-3" y2="3.636" transform="translate(3.636 1.818) rotate(90)"/>
+        </g>
+      </g>
+      <path id="Path_1215" data-name="Path 1215" class="cls-4" d="M19.092,27A11.476,11.476,0,0,0,9.32,32.525a11.4,11.4,0,0,0,19.544,0A11.476,11.476,0,0,0,19.092,27Zm0,9.609a4.084,4.084,0,1,1,4.084-4.084A4.089,4.089,0,0,1,19.092,36.609Zm0-7.206a3.123,3.123,0,1,0,3.123,3.123A3.126,3.126,0,0,0,19.092,29.4Zm0,1.922a1.189,1.189,0,0,0-.757.276l-.168.168a1.189,1.189,0,0,0-.276.757.48.48,0,1,1-.961,0,2.165,2.165,0,0,1,2.162-2.162.48.48,0,1,1,0,.961Z" transform="translate(457.68 3306)"/>
+    </g>
+  </g>
+</svg>

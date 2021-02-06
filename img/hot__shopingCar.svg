@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <style>
+      .cls-1, .cls-4 {
+        fill: none;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #8b8b8b;
+      }
+
+      .cls-2 {
+        opacity: 0;
+      }
+
+      .cls-4 {
+        stroke: #fff;
+        stroke-linecap: round;
+      }
+    </style>
+  </defs>
+  <g id="Group_1983" data-name="Group 1983" transform="translate(-393 -3325)">
+    <rect id="Rectangle_68" data-name="Rectangle 68" class="cls-1" width="40" height="40" transform="translate(393 3325)"/>
+    <g id="Group_1979" data-name="Group 1979" transform="translate(4 6)">
+      <g id="Layer_2" data-name="Layer 2" transform="translate(399 3329)">
+        <g id="shopping-cart" transform="translate(0 0)">
+          <rect id="Rectangle_46" data-name="Rectangle 46" class="cls-2" width="20" height="20"/>
+          <path id="Path_1045" data-name="Path 1045" class="cls-3" d="M17.956,6.345a1.673,1.673,0,0,0-1.422-.836H5.83l-.485-1.89A.836.836,0,0,0,4.509,3H2.836a.836.836,0,1,0,0,1.673H3.873l2.308,8.58a.836.836,0,0,0,.836.619h7.527a.836.836,0,0,0,.744-.46l2.743-5.486a1.673,1.673,0,0,0-.075-1.581Z" transform="translate(-0.327 -0.562)"/>
+          <circle id="Ellipse_5" data-name="Ellipse 5" class="cls-3" cx="1.212" cy="1.212" r="1.212" transform="translate(4.848 15)"/>
+          <circle id="Ellipse_6" data-name="Ellipse 6" class="cls-3" cx="1.212" cy="1.212" r="1.212" transform="translate(13.333 15)"/>
+        </g>
+      </g>
+      <g id="Group_1978" data-name="Group 1978" transform="translate(407.392 3335.837)">
+        <line id="Line_13" data-name="Line 13" class="cls-4" y2="4.771" transform="translate(2.386)"/>
+        <line id="Line_14" data-name="Line 14" class="cls-4" y2="4.771" transform="translate(4.771 2.386) rotate(90)"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="360" height="279.728" viewBox="0 0 360 279.728">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #707070;
+      }
+
+      .cls-2 {
+        fill: #08080c;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        fill: #b40303;
+      }
+
+      .cls-5 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-6 {
+        fill: #8b8b8b;
+      }
+
+      .cls-7 {
+        fill: #d10024;
+        font-size: 47px;
+        font-family: SegoeUI, Segoe UI;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <path id="Path_1227" data-name="Path 1227" class="cls-1" d="M-300.939,3448.326l72.817,53.269L-36.06,3473.25-56.1,3355.96l-18.571-74.283-38.608-5.865-83.569,12.707-92.366,15.638-30.3,29.323,5.376,62.065Z" transform="translate(319.51 -3275.812)"/>
+    </clipPath>
+  </defs>
+  <g id="Group_2272" data-name="Group 2272" transform="translate(382.311 -3271.812)">
+    <path id="Path_1220" data-name="Path 1220" class="cls-2" d="M0,0,192.336,15.563l74.124,135.624L57.1,177.867Z" transform="translate(-382.311 3374.999) rotate(-7)"/>
+    <path id="Path_1222" data-name="Path 1222" class="cls-3" d="M838.806,3403.652l179.743,15.563,69.271,135.624-195.654,26.68Z" transform="translate(-1189.471 -46.744)"/>
+    <path id="Path_1221" data-name="Path 1221" class="cls-4" d="M838.806,3403.652l165.94,14.277,63.952,124.416-180.63,24.475Z" transform="translate(-1175.853 -37.877)"/>
+    <g id="Mask_Group_3" data-name="Mask Group 3" class="cls-5" transform="translate(-305.761 3271.812)">
+      <g id="Group_2271" data-name="Group 2271" transform="translate(5.773 38.141) rotate(-8)">
+        <path id="Path_1226" data-name="Path 1226" class="cls-6" d="M0,0H189.281l-5.425,19.29L101.271,77.762,0,15.673Z" transform="translate(24.612 15.394)"/>
+        <path id="Path_1225" data-name="Path 1225" d="M203.191,0H35.857A35.857,35.857,0,0,0,0,35.857V155.382a35.857,35.857,0,0,0,35.857,35.857H203.191a35.857,35.857,0,0,0,35.857-35.857V35.857A35.857,35.857,0,0,0,203.191,0Zm0,23.9L125.5,77.332a11.952,11.952,0,0,1-11.952,0L35.857,23.9Z" transform="translate(0)"/>
+        <text id="Discount" class="cls-7" transform="translate(27.628 140.199)"><tspan x="0" y="0">Discount</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
