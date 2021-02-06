@@ -174,7 +174,7 @@
         display: inline-block;
         width: 44px;
         height: 44px;
-        background: url(../../img/like.svg);
+        background: url(../img/like.svg);
         background-repeat: no-repeat;
         background-position: center center;
     }
@@ -274,7 +274,7 @@
 }
 
 .like__item:hover .like__icon__img {
-    background: url(../../img/like__hover.svg);
+    background: url(../img/like__hover.svg);
     background-repeat: no-repeat;
     background-position: center center;
 }
@@ -291,7 +291,7 @@
         display: inline-block;
         width: 44px;
         height: 44px;
-        background: url(../../img/shoping__car.svg);
+        background: url(../img/shoping__car.svg);
         background-repeat: no-repeat;
         background-position: center center;
     }
@@ -391,7 +391,7 @@
 }
 
 .shopingCar__item:hover .shopping__icon__img {
-    background: url(../../img/shoping__car__hover.svg);
+    background: url(../img/shoping__car__hover.svg);
     background-repeat: no-repeat;
     background-position: center center;
 }
@@ -447,7 +447,7 @@
 @media(max-width:768px) {
     .showmenu {
         display: block;
-        background: url(../../img/hamburg.svg);
+        background: url(../img/hamburg.svg);
         background-repeat: no-repeat;
         background-size: center center;
         width: 40px;
@@ -455,7 +455,7 @@
     }
 
     .hamburg__cancel {
-        background: url(../../img/hamburg__cancel.svg);
+        background: url(../img/hamburg__cancel.svg);
         background-repeat: no-repeat;
         background-size: center center;
     }
