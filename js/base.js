@@ -39,7 +39,7 @@ $(document).ready(function () {
   });
 
   //hot product tab
-  
 
+  $("#tabs").tabs();
 
 });

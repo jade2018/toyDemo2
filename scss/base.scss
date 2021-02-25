@@ -1,4 +1,8 @@
 @import "base/reset";
+// @import 'box/bootstrap.min.css';
+// @import 'box/jquery-ui.min.css';
+// @import 'box/jquery-ui.theme.css';
+// @import 'box/swiper.css';
 
 @font-face {
     font-family: "Noto Sans";
@@ -65,7 +69,7 @@ p {
     transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
 }
 
-@media(max-width:768px) {
+@media(max-width:1024px) {
     .container {
         margin-left: 15px;
         margin-right: 15px;

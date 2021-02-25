@@ -10,8 +10,11 @@
 
 .nav__bar {
     border-bottom: 2px solid #D10024;
-
+    color: #000;
+    background-color: #000;
 }
+
+
 
 .language__btn {
     display: flex;
@@ -136,24 +139,82 @@
         border-left: 1px solid #CBCBCB;
         padding: 0 16px;
 
+        @media(max-width:1024px) {
+            width: 400px;
+        }
+
         @media(max-width:768px) {
             width: auto;
         }
     }
-
-
-
 
     .search__icon {
         background-color: #D10024;
         border-radius: 0 4px 4px 0;
         padding: 0 20px;
         cursor: pointer;
+
+        @media(max-width:768px) {
+            padding: 0 10px;
+        }
+    }
+}
+
+.search__bar__sm {
+    display: none;
+}
+
+
+//search__bar__sm
+@media(max-width:736px) {
+    .search__bar {
+        display: none;
     }
 
-    @media(max-width:768px) {
+    .search__bar__sm {
+        display: flex;
+        border-radius: 4px;
+        margin: 10px 20px 0 20px;
+
+
+        >.dropdown {
+            position: relative;
+            line-height: 26px;
+            color: #707070;
+            padding: 5px 34px 5px 20px;
+            cursor: pointer;
+            background-color: #fff;
+            border-radius: 4px 0 0 4px;
+
+            &::before {
+                position: absolute;
+                content: '';
+                right: 18px;
+                top: 11px;
+                width: 8px;
+                height: 8px;
+                border-bottom: 1px solid #707070;
+                border-left: 1px solid #707070;
+                transform: rotate(-45deg);
+            }
+        }
+
+        >.search {
+            width: 77%;
+            border: none;
+            border-left: 1px solid #CBCBCB;
+            padding: 0 16px;
+
+            @media(max-width:415px) {
+                width: 59%;
+            }
+        }
+
         .search__icon {
+            background-color: #D10024;
+            border-radius: 0 4px 4px 0;
             padding: 0 10px;
+            cursor: pointer;
         }
     }
 }
@@ -474,6 +535,10 @@
         background-color: #1B1C1D;
         z-index: 2;
 
+        @media(max-width:415px) {
+            top: 168px;
+        }
+
 
         .dropdownMenu__item {
             margin: 0;
@@ -542,4 +607,7 @@
         width: 100vw;
         z-index: 2;
     }
+
+
+
 }

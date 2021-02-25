@@ -6,14 +6,26 @@
         margin-top: 120px;
     }
 
+    @media(max-width:736px) {
+        margin-top: 165px;
+    }
+
     .banner__carousel {
         position: relative;
         max-width: 1300px;
         height: 500px;
         transition: 0.5s;
 
+        @media(max-width:1024px) {
+            max-width: 1000px;
+        }
+
         @media(max-width:768px) {
             max-width: 718px;
+        }
+
+        @media(max-width:415px) {
+            max-width: 400px;
         }
     }
 
@@ -42,9 +54,9 @@
             z-index: -1;
         }
 
-        @media(max-width:768px) {
-            width: 718px;
-            height: 300px;
+        @media(max-width:1024px) {
+            max-width: 1000px;
+            height: 400px;
             background-image: url(../img/md__banner__1.jpg);
             background-repeat: no-repeat;
             background-size: cover;
@@ -52,7 +64,29 @@
             border-radius: 10px;
 
             &::after {
+                width: 900px;
+                right: 5%;
+            }
+        }
+
+        @media(max-width:768px) {
+            height: 300px;
+
+            &::after {
                 width: 660px;
+                right: 3%;
+            }
+        }
+
+        @media(max-width:415px) {
+            background-image: url(../img/sm__banner__1.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            border-radius: 10px;
+
+            &::after {
+                width: 375px;
                 right: 3%;
             }
         }
@@ -79,9 +113,9 @@
             z-index: -1;
         }
 
-        @media(max-width:768px) {
-            width: 718px;
-            height: 300px;
+        @media(max-width:1024px) {
+            max-width: 1000px;
+            height: 400px;
             background-image: url(../img/md__banner__2.jpg);
             background-repeat: no-repeat;
             background-size: cover;
@@ -89,7 +123,29 @@
             border-radius: 10px;
 
             &::after {
+                width: 900px;
+                right: 5%;
+            }
+        }
+
+        @media(max-width:768px) {
+            height: 300px;
+
+            &::after {
                 width: 660px;
+                right: 3%;
+            }
+        }
+
+        @media(max-width:415px) {
+            background-image: url(../img/sm__banner__2.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            border-radius: 10px;
+
+            &::after {
+                width: 375px;
                 right: 3%;
             }
         }
