@@ -39,9 +39,15 @@ var mySwiper2 = new Swiper('.news__carousel', {
 
 //product
 var mySwiper3 = new Swiper('.product__carousel', {
-  slidesPerView: 4,
+  slidesPerView: 2,
   spaceBetween: 10,
   watchSlidesProgress: true,
+  breakpoints: { 
+    768: {  //当屏幕宽度大于等于768
+      slidesPerView: 4,
+      // spaceBetween: 5,
+    },
+  },
 
   navigation: {
     nextEl: '.product__button__next',
